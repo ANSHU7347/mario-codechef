@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int i;
+        int p;
+        cin>>p;
+        string s;
+        cin>>s;
+        string s1,s2;
+        for(i=0;i<p/2;i++)
+        s1+=s[i];
+        for(i=p/2;i<p;i++)
+        s2+=s[i];
+        if(s1==s2){
+        cout<<"Yes"<<endl;
+        }
+        else{
+        cout<<"No"<<endl;
+        }
+        
+        
+        
+        
+    }
+	// your code goes here
+	return 0;
+}
